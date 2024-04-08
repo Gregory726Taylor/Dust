@@ -1,8 +1,10 @@
-digraph "SandParticle"
-{
-  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
-  node [fontname="Helvetica",fontsize="10",shape=record];
-  Node2 [label="SandParticle",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
-  Node3 -> Node2 [dir="back",color="firebrick4",fontsize="10",style="solid",fontname="Helvetica"];
-  Node3 [label="Particle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classParticle.html"];
+digraph "SandParticle" { // Define the graph with the name "SandParticle"
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"]; // Set default attributes for edges
+  node [fontname="Helvetica",fontsize="10",shape=record]; // Set default attributes for nodes
+
+  Node2 [label="SandParticle",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"]; // Create a node for "SandParticle" with specific attributes
+
+  Node3 -> Node2 [dir="back",color="firebrick4",fontsize="10",style="solid",fontname="Helvetica"]; // Create an edge (relation) from "Particle" to "SandParticle" with specific attributes
+
+  Node3 [label="Particle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled", URL="$classParticle.html"]; // Create a node for "Particle" with specific attributes and a URL reference
 }
