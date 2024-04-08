@@ -1,7 +1,16 @@
-digraph "Graphical Class Hierarchy"
-{
-  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
-  node [fontname="Helvetica",fontsize="10",shape=record];
-  rankdir="LR";
+digraph "Graphical Class Hierarchy" { // Define the graph as a directed graph with a title
+
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"]; // Set edge properties
+  node [fontname="Helvetica",fontsize="10",shape=record]; // Set node properties
+  rankdir="LR"; // Set the layout direction from left to right
+
   Node0 [label="Observable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classObservable.html"];
+  // Create a node named 'Node0' with the following properties:
+  // - label: "Observable"
+  // - height: 0.2
+  // - width: 0.4
+  // - color: "black"
+  // - fillcolor: "white"
+  // - style: "filled"
+  // - URL: "$classObservable.html"
 }
