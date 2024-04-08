@@ -1,1 +1,2 @@
-df5ac9c6706d34b5eed42fa06335d2a9
+# Generate a hash of the input data using the SHA-256 algorithm
+hash_value = SHA256.hexdigest(input_data)
